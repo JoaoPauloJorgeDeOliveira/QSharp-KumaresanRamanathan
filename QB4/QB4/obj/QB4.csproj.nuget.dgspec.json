@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joaoo\\Google Drive (joaoolive@gmail.com)\\Programação\\Quântica - Udemy\\QB4\\QB4\\QB4.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joaoo\\Google Drive (joaoolive@gmail.com)\\Programação\\Quântica - Udemy\\QB4\\QB4\\QB4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joaoo\\Google Drive (joaoolive@gmail.com)\\Programação\\Quântica - Udemy\\QB4\\QB4\\QB4.csproj",
+        "projectName": "QB4",
+        "projectPath": "C:\\Users\\joaoo\\Google Drive (joaoolive@gmail.com)\\Programação\\Quântica - Udemy\\QB4\\QB4\\QB4.csproj",
+        "packagesPath": "C:\\Users\\joaoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaoo\\Google Drive (joaoolive@gmail.com)\\Programação\\Quântica - Udemy\\QB4\\QB4\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joaoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Canon": {
+              "target": "Package",
+              "version": "[0.2.1806.1503-preview, )"
+            },
+            "Microsoft.Quantum.Development.Kit": {
+              "target": "Package",
+              "version": "[0.2.1806.1503-preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
