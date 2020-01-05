@@ -30,3 +30,13 @@ C:\Users\User\source\repos\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.AssemblyInfo.cs
 C:\Users\User\source\repos\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.dll
 C:\Users\User\source\repos\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.pdb
 C:\Users\User\source\repos\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.csprojAssemblyReference.cache
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\bin\Debug\netcoreapp2.0\QB4.deps.json
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\bin\Debug\netcoreapp2.0\QB4.runtimeconfig.json
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\bin\Debug\netcoreapp2.0\QB4.runtimeconfig.dev.json
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\bin\Debug\netcoreapp2.0\QB4.dll
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\bin\Debug\netcoreapp2.0\QB4.pdb
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.csprojAssemblyReference.cache
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.AssemblyInfoInputs.cache
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.AssemblyInfo.cs
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.dll
+C:\Users\joaoo\Google Drive (joaoolive@gmail.com)\Programação\Quântica - Udemy\QB4\QB4\obj\Debug\netcoreapp2.0\QB4.pdb

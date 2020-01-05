@@ -36,52 +36,52 @@
 
 					//Demo of pass through (NOP)
 					//Set (Zero, qubits[0]);
-                    //Set (Zero, qubits[1]);
-					//Set (Zero, qubits[2]);
+                    //Set (One, qubits[1]);
+					//Set (One, qubits[2]);
 					//Set (Zero, qubits[3]);
 
 					//Demo of NOT gate
 					//Set (Zero, qubits[0]);
 					//X(qubits[0]);
 
-					//Demo of Hadamard
+					//Demo of Hadamard -> superposes a qubit to [1/root(2) 1/root(2)]^T (50% of chance each).
 					//Set (Zero, qubits[0]);
 					//H(qubits[0]);
 
-					//Demo of SWAP
+					//Demo of SWAP -> Exchanges the states of 2 qubits.
 					//Set (One, qubits[0]);
 					//SWAP (qubits[0],qubits[1]);
 
-					//Demo of Controlled-NOT   ( CNOT )
+					//Demo of Controlled-NOT (CNOT) -> performs not operation on qubit 1 if qubit 0 is 1.
 					//Set (One, qubits[0]);
                     //Set (Zero, qubits[1]);
                     //CNOT(qubits[0],qubits[1]);
 
-					//Demo of Bell State
+					//Demo of Bell State -> 1/root(2) (|0000> + |0001>) = P(0000) = 50% e P(0001) = 50%.
 					//Set (Zero, qubits[0]);
                     //Set (Zero, qubits[1]);
                     //H(qubits[0]);
                     //CNOT(qubits[0],qubits[1]);
 
-					//Demo of Toffoli Gate in general configuration
+					//Demo of Toffoli Gate (aka CCNOT Gate) in general configuration. If qubits 0 and 1 are 1, inverts qubit 2.
 					//Set (One, qubits[0]);
                     //Set (One, qubits[1]);
 					//Set (One, qubits[2]);
 					//CCNOT(qubits[0],qubits[1],qubits[2]);
 
-					//Demo of Toffoli Gate in NOT configuration
+					//Demo of Toffoli Gate in NOT configuration -> Toffoli gate simulation a NOT gate.
 					//Set (One, qubits[0]); // Always 1
                     //Set (One, qubits[1]); // Always 1
 					//Set (One, qubits[2]); // Input of NOT gate. Gets inverted by NOT
 					//CCNOT(qubits[0],qubits[1],qubits[2]);
 
-					//Demo of Toffoli Gate in AND configuration
+					//Demo of Toffoli Gate in AND configuration -> Toffoli gate simulation an AND gate.
 					//Set (One, qubits[0]); // Input 1 of AND
                     //Set (One, qubits[1]); // Input 2 of AND
 					//Set (Zero, qubits[2]);// Initialized to 0. Gets the result of AND
 					//CCNOT(qubits[0],qubits[1],qubits[2]);
 
-					//Demo of Toffoli Gate in FANOUT configuration
+					//Demo of Toffoli Gate in FANOUT configuration -> FANOUT = copies states 0 or 1 form one qubit to another. Produces different behaviur if quibit is superposed.
 					//Set (One, qubits[0]); // Always 1
                     //Set (One, qubits[1]); // Input & Pass through.
 					//Set (Zero, qubits[2]); //Initialized to 0. Gets a result of the fanout from qubits[1]
